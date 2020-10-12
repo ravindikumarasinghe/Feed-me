@@ -1,2 +1,2 @@
 :smiley:# Feed-me
-:snake::video_game:
+#Simple snake game:snake::video_game:
