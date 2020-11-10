@@ -4,7 +4,7 @@ import random
  
 pygame.init()
 
- #initialize colors
+ #initialize colors...
  
 white = (255, 255, 255)
 darkred = (127,23,31)
@@ -41,7 +41,7 @@ def message(msg, color):
     mesg = font_style.render(msg, True, color)
     dis.blit(mesg, [dis_width / 6, dis_height / 3])
  
-  # creating a function 
+  # creating a function... 
 def gameLoop():
     game_over = False
     game_close = False
@@ -73,7 +73,8 @@ def gameLoop():
                         game_close = False
                     if event.key == pygame.K_c:
                         gameLoop()
- #add quit command to end
+                        
+ #add quit command to end...
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 game_over = True
