@@ -74,7 +74,7 @@ def gameLoop():
                     if event.key == pygame.K_c:
                         gameLoop()
                         
- #add quit command to end...
+ #add quit command to end
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 game_over = True
