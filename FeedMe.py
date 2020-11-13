@@ -78,6 +78,7 @@ def gameLoop():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 game_over = True
+
 #Add motion to snake
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_LEFT:
