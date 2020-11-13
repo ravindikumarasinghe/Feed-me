@@ -4,7 +4,7 @@ import random
  
 pygame.init()
 
- #initialize colors
+ #initialize colors...
  
 white = (255, 255, 255)
 darkred = (127,23,31)
