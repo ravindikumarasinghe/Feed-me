@@ -1,4 +1,4 @@
-ort pygame
+rt pygame
 import time
 import random
  
