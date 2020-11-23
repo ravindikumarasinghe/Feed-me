@@ -1,5 +1,5 @@
 import pygame
-port time
+ort time
 import random
  
 pygame.init()
