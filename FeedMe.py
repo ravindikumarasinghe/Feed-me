@@ -1,4 +1,4 @@
-import pygame
+mport pygame
 import time
 import random
  
