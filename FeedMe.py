@@ -1,6 +1,6 @@
 import pygame
 import time
-port random
+ort random
  
 pygame.init()
 
