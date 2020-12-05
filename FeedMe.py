@@ -81,6 +81,7 @@ def gameLoop():
                 game_over = True
 
 #Add motion to snake
+
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_LEFT:
                     x1_change = -snake_block
