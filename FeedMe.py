@@ -17,7 +17,7 @@ yellow = (205, 205, 82)
 dis_width = 600
 dis_height = 400
  
-Distance = pygame.display.set_mode((dis_width, dis_height))
+dis = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption('Feed Me')
  
 clock = pygame.time.Clock()
@@ -25,7 +25,7 @@ clock = pygame.time.Clock()
 snake_block = 10
 snake_speed = 15
  
-font_style = pygame.font.SysFont("bahnschrift", 25)
+font_styles = pygames.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
  
 def Your_score(score):
