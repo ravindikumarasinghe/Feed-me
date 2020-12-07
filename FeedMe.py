@@ -123,7 +123,7 @@ def gameLoop():
             fx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
             fy = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
             Length_of_snake += 1
-            print("umm....Delicious!!")
+            print("ummm....Delicious!!")
         clock.tick(snake_speed)
  
     pygame.quit()
