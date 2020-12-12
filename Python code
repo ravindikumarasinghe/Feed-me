@@ -36,7 +36,6 @@ def our_snake(snake_block, snake_list):
     for x in snake_list:
         pygame.draw.rect(dis, blue, [x[0], x[1], snake_block, snake_block])
  
- 
 def message(msg, color):
     mesg = font_style.render(msg, True, color)
     dis.blit(mesg, [dis_width / 6, dis_height / 3])
@@ -115,7 +114,6 @@ def gameLoop():
  
         our_snake(snake_block, snake_List)
  
- 
         pygame.display.update()
  
         if x1 == fx and y1 == fy:
@@ -127,6 +125,5 @@ def gameLoop():
  
     pygame.quit()
     quit()
- 
- 
+  
 gameLoop()
